@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "demo-server" {
-    ami = " ami-0f5ee92e2d63afc18"
+    ami = "ami-0f5ee92e2d63afc18"
     instance_type = "t3.small"
     key_name = "gashok120707"
 }
